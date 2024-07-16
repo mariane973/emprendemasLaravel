@@ -1,0 +1,52 @@
+/* Botones Profile */
+.btn.btn-edit{
+    background-color: #33B66C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn.btn-edit:hover {
+    background-color: #03643A;
+    color: white;
+}
+.btn.btn-delete {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn.btn-delete:hover {
+    background-color: #cc0000;
+    color: white;
+}
+/* Formulario Editar */
+.btn.btn-editar{
+    background-color: #33B66C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn.btn-editar:hover {
+    background-color: #2a9457;
+    color: white;
+}
+.form-editar{
+    max-width: 700px;
+    width: 100%;
+}
+/* Eliminar Uusario */
+.btn.btn-confirmar {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn.btn-confirmar:hover {
+    background-color: #cc0000;
+    color: white;
+}
+input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+            margin: 0;
+    }

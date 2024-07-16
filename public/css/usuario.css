@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(105, 154, 132) !important;
+}
+
+
+section .Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 900px;
+    background: linear-gradient(to left, white 45%, #8FDABA 75%);
+    border-radius: 75px;
+}
+section .Login .contenedor{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+section .Login .Logo_Use .Iso_Log img{
+    margin: 145px 0px 15px 120px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+section .Login .Logo_Use .Iso_Log .Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .Login .Logo_Use .Iso_Log .Text h1 {
+    font-size: 35px;
+}
+section .Login .Logo_Use .Iso_Log .Text .emprende {
+    color: #0FA958;
+    margin-left: 100px;
+}
+section .Login .Logo_Use .Iso_Log .Text .mas {
+    color: #FD9021;
+}
+
+
+hr {
+    border: 0;
+    height: 92%;
+    width: 2px;
+    background-color: #00000048;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+
+section .Login .Info {
+    margin: 50px 40px 0px 0px;
+    padding: 30px;
+    border-radius: 10px;
+
+
+    .Title h1 {
+      text-align: center;
+      font-size: 30px;
+      color: #272727ca;
+      font-weight: bold;
+      padding-bottom: 30px;
+    }
+    .In_Use input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #8FDABA;
+      background-color: #8FDABA;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .In_Use input[type="text"]::placeholder {
+        color: #ffffff;
+    }
+    .In_Use input:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .In_Use input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #8FDABA;
+        background-color: #8FDABA;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .In_Use input[type="password"]::placeholder {
+          color: #fff;
+      }
+      .In_Use input:focus {
+          outline: none;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+  
+
+    .btn-ingresar button[type="submit"] {
+      background-color: #33B66C;
+      color: #fff;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin: 12px 0px 24px 0px;
+    }
+    .resetpasword a{
+        text-decoration: none;
+        color: #000;
+        margin: 0px 0px 10px 60px;
+    }
+  
+    /* Estilo del enlace de registro */
+    .Register a {
+      text-decoration: none;
+      color: #03643A;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }

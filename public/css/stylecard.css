@@ -1,0 +1,84 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+/*DEMO GENERAL ============================== */
+
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+  }
+  
+  
+  
+  .hover img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+  }
+  
+  .hover-content {
+    position: relative;
+    z-index: 99;
+  }
+  
+  span{
+    font-size:large;
+    align-items: center;
+  }
+  
+  /* DEMO 1 ============================== */
+  
+  .hover-1 img {
+    width: 105%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+  
+  }
+  
+  .hover-1-content {
+    position: absolute;
+    bottom: 0;
+    margin-top: 50px;
+    left: 0;
+    z-index: 1;
+    transition: all 0.4s;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .hover-1-description {
+    transform: translateY(0.5rem);
+    transition: all 0.4s;
+    
+  }
+  
+  .hover-1:hover .hover-1-content {
+    bottom: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+  
+  }
+  
+  
+  .hover-1:hover img {
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hover-1:hover .hover-overlay {
+    opacity: 20;
+  }
+  
+  
+  
