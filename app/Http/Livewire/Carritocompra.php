@@ -8,7 +8,7 @@ use App\Models\Servicio;
 use App\Models\CarritoCompra as Carrito;
 use Illuminate\Support\Facades\Auth;
 
-class Carritocompra extends Component
+class CarritoCompra extends Component
 {
     public $carritoitems, $sub_total = 0, $total = 0, $envio = 8000;
 

@@ -7,7 +7,6 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ServicioController;
 use App\Http\Controllers\PasarelaController;
 use App\Http\Controllers\CompraController;
-use App\Http\Livewire\CarritoCompra;
 use App\Http\Controllers\PedidoController;
 use App\Http\Controllers\InventarioController;
 use App\Models\Servicio;
@@ -50,8 +49,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/profile', [UserController::class, 'index'])->name('profile');
-
-Route::get('/carrito', CarritoCompra::class)->name('carritocompra');
 
 Route::get('/carrito', function () {
     return view('carrito');
