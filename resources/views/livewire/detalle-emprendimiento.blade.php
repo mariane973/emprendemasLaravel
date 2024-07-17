@@ -1,6 +1,5 @@
 <div class="container">
     <div class="row">
-        
         <div class="col-lg-10">
             <h5 class="fw-semibold" style="color: green;">Información sobre el emprendimiento  <i class="fas fa-search" style="color: green; font-size: 15px"></i></h3></h5>
             <hr class="me-4 " style="color: green;">
@@ -34,7 +33,7 @@
                         
                         @if($producto->stock > 0)
                             @can('agregarCarrito')
-                                <button type="button" class="btn btn-success mt-2" wire:click="agregarCarro({{ $producto->id }})">
+                                <button type="button" class="btn btn-success mt-2" wire:click="agregarCarro('producto', {{ $producto->id }})">
                                     <i class="fas fa-cart-plus me-1"></i> Agregar al Carrito
                                 </button>
                             @endcan
@@ -79,7 +78,7 @@
                         <span style="color: green; font-size: 16px;">${{ number_format($servicio->valor_final) }}</span>
                     </p>
                     @can('agregarCarrito')
-                    <button type="button" class="btn btn-success mt-2" wire:click="agregarCarro({{ $servicio->id }})">
+                    <button type="button" class="btn btn-success mt-2" wire:click="agregarCarro('servicio', {{ $servicio->id }})">
                         <i class="fas fa-cart-plus me-1"></i> Agregar al Carrito
                     </button>
                     @endcan

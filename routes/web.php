@@ -54,7 +54,6 @@ Route::get('/carrito', function () {
     return view('carrito');
 })->name('carrito');
 
-
 Route::post('/pagar/{producto_id}/{cantidad}/{precio}', [PasarelaController::class, 'pagar'])->name('pagar');
 
 Route::get('/pasarela-pago/{producto_id}/{cantidad}/{precio}', [CompraController::class, 'pasarelaPago'])->name('pasarela.pago');

@@ -37,9 +37,8 @@ class DetalleEmprendimiento extends Component
                 'user_id' => auth()->user()->id,
                 $tipo . '_id' => $id,
             ];
-           
+        
             CarritoCompra::updateOrCreate($data);
-
 
             $this->emit('updateCartCount');
         }
