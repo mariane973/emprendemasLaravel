@@ -1,7 +1,6 @@
 body{
     background-color: rgb(105, 154, 132) !important;
 }
-
 section .Login1 .Info {
     margin: 30px 0px 0px 35px;
     padding: 30px;
@@ -162,4 +161,18 @@ section .Login1 .Logo_Use .Iso_Log .Text .emprende {
 }
 section .Login1 .Logo_Use .Iso_Log .Text .mas {
     color: #FD9021;
+}
+@media (max-width: 767px) {
+    section .Login1 {
+        background: white;
+        width: 400px;
+        padding: 10px;
+        height: auto;
+        border-radius: 75px;
+        position: absolute;
+    }
+    section .Login1 .Info {
+        padding-left: 0px;
+        padding-right: 70px;
+    }
 }

@@ -4,7 +4,7 @@
 <section>
 <div class="Login container" style=" height: 500px;">
     <div class="Contenedor row">
-        <div class="Logo_Use col-5">
+        <div class="Logo_Use col-lg-5 d-none d-lg-block">
             <div class="Iso_Log col">
             <a href="/" class="fw-bold">
             <img src="imagenes/tucan.png" alt="">
@@ -15,10 +15,10 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg d-none d-lg-block">
             <hr>
         </div>
-        <div class="Info col-5">
+        <div class="Info col-lg-5 col-xs-12">
             <form action="{{ route('login') }}" method="post">
             @csrf
                 <div class="Title">
@@ -44,7 +44,7 @@
                     <button type="submit" class="fw-bold">Ingresar</button>
                 </div>
                 @if (Route::has('password.request'))
-                <div class="resetpasword"> 
+                <div class="resetpasword">
                     <a class="btn btn-link" href="{{ route('password.request') }}">
                         {{ __('¿Olvidaste tu contraseña?') }}
                     </a>

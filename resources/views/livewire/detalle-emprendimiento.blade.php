@@ -105,7 +105,7 @@
 
         <div class="col-lg-2">
             <div class="sticky-top" style="top: 100px;">
-            <img src="/imagenes/emprendimientos/{{$vendedor->logo}}" class="image-empren mb-3 mx-4" alt="" style="height: 120px; width: 120px">
+            <img src="/imagenes/emprendimientos/{{$vendedor->logo}}" class="image-empren mb-3 mx-auto mx-sm-4" alt="" style="height: 120px; width: 120px; display: block;">
                 <h4 class="fw-bold mb-4 ms-3 text-center fst-italic">{{ $vendedor->nom_emprendimiento }}</h4>
                 <div class="container ">
                 <p class="text-start mt-3 mb-3">{{ $vendedor->descrip_emprendimiento }}</p>

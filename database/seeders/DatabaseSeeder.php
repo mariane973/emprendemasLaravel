@@ -26,15 +26,43 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name'=>'Salome',
             'email'=>'salome26u.u@gmail.com',
-            'password'=>bcrypt('4567890')
+            'password'=>bcrypt('salome')
         ])->assignRole('Vendedor');
 
         User::create([
             'name'=>'Sofia',
-            'email'=>'sofi@gmail.com',
-            'password'=>bcrypt('67890')
+            'email'=>'sofia@gmail.com',
+            'password'=>bcrypt('sofia')
         ])->assignRole('Cliente');
 
-        //\App\Models\User::factory(10)->create();
+        User::create([
+            'name'=>'Santiago',
+            'email'=>'santiago@gmail.com',
+            'password'=>bcrypt('santiago')
+        ])->assignRole('Vendedor');
+
+        User::create([
+            'name'=>'Carolina',
+            'email'=>'carolina@gmail.com',
+            'password'=>bcrypt('carolina')
+        ])->assignRole('Vendedor');
+
+        User::create([
+            'name'=>'Lesly',
+            'email'=>'lesly@gmail.com',
+            'password'=>bcrypt('lesly')
+        ])->assignRole('Vendedor');
+        
+        User::create([
+            'name'=>'Alejandra',
+            'email'=>'alejandra@gmail.com',
+            'password'=>bcrypt('alejandra')
+        ])->assignRole('Vendedor');
+
+        User::create([
+            'name'=>'Laura',
+            'email'=>'laura@gmail.com',
+            'password'=>bcrypt('laura')
+        ])->assignRole('Cliente');
     }
 }

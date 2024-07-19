@@ -16,8 +16,8 @@
     </div>
   </div>
   <div class="carousel-caption">
-  <h1 class="display-5 fw-semibold fst-italic">¿Qué es EmprendeMás?</h1>
-    <p class="" >EmprendeMás brinda un espacio en el que podrás comercializar tus productos de manera segura, proporcionando contacto directo con clientes e impulsando tu emprendimiento o microempresa de manera virtual. </p>
+  <h1 class="display-5 fw-semibold fst-italic d-none d-sm-block">¿Qué es EmprendeMás?</h1>
+    <p class="d-none d-sm-block">EmprendeMás brinda un espacio en el que podrás comercializar tus productos de manera segura, proporcionando contacto directo con clientes e impulsando tu emprendimiento o microempresa de manera virtual. </p>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

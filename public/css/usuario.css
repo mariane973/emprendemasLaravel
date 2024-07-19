@@ -3,7 +3,7 @@ body{
 }
 
 
-section .Login{
+section .Login {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,6 +12,17 @@ section .Login{
     width: 900px;
     background: linear-gradient(to left, white 45%, #8FDABA 75%);
     border-radius: 75px;
+}
+
+@media (max-width: 767px) {
+    section .Login {
+        background: white;
+        position: absolute;
+        width: 400px;
+        padding: 20px;
+        height: auto;
+        border-radius: 75px;
+    }
 }
 section .Login .contenedor{
     margin: 0;

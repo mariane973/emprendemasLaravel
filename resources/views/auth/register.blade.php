@@ -5,7 +5,7 @@
         <form method="POST" action="{{ route('register') }}">
         @csrf
             <div class="Contenedor row">
-                <div class="Info col-5">
+                <div class="Info col-lg-5 col-xs-12">
                     <div class="Title">
                         <h1>CREAR CUENTA</h1>
                     </div>
@@ -58,10 +58,10 @@
                         <a href="/login">Iniciar Sesion</a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg d-none d-lg-block">
                     <hr>
                 </div>
-                <div class="Logo_Use col-6">
+                <div class="Logo_Use col-lg-6 d-none d-lg-block">
                     <div class="Iso_Log col">
                     <a href="/" class="fw-bold">
                     <img src="imagenes/tucan.png" alt="">

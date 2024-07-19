@@ -1,16 +1,17 @@
 <div class="container">
     @include('layouts.mensaje')
-    <div class="row">
-        <div class="container mb-5 d-flex justify-content-center align-items-center">
-            <h5 class="col-lg-8 col-sm-5 fw-semibold" style="color: green;">Ofertas - Productos</h5>
-            <div class="Caja_Busqueda col-lg-4 col-md-4 ps-sm-3 col-sm-7 col-md-4">
-                <input wire:model.live='search' type="text" placeholder="Buscar una oferta">
-                <i class="fas fa-search"></i>
-            </div>
+    <div class="row mb-5 justify-content-center align-items-center text-center text-xs-start">
+        <h5 class="col-lg-4 col-md-6 col-xs-12 me-sm-2 fw-semibold ms-4" style="color: green;">Ofertas - Productos</h5>
+        
+        <div class="Caja_Busqueda col-lg-4 col-md-9 col-xs-12 justify-content-end p-lg-4 ms-lg-4  ms-sm-2 mt-3 mt-sm-0">
+            <input wire:model.live='search' type="text" placeholder="Buscar una oferta">
+            <i class="fas fa-search"></i>
         </div>
+    </div>
 
+        <div class="row">
         @foreach($ofertaCont as $ofertaVista)
-        <div class="col-lg-3 col-sm-6 md-6 mt-3">
+        <div class="col-lg-3 col-sm-6 md-6 mt-3 col-xs-12 d-flex align-items-center justify-content-center">
             <div class="card mb-3" style="max-width: 280px; height: 450px; border-color: transparent;">
                 <div class="m-auto ps-2 py-2">
                     <div class="descuento  fst-italic">{{$ofertaVista->descuento}}% off</div>
